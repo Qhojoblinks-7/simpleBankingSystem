@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Author" content="Immanuel Eshun Qunasah">
     <title>
-        GBC Online Banking - Your Online Banking Solution
+        GCB Online Banking - Your Online Banking Solution
     </title>
     <link rel="stylesheet" href="bootstrap.min.css"> <!-- Consolidated CSS links into one line -->
-    <link rel="stylesheet" href="fashion.css">
     <link rel="stylesheet" href="home.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
@@ -18,139 +17,34 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
-<body id="background">
+<body class="bg-gradient">
     <div class="container">
-        <header id="heading">
-            <div class="mentee-header-container col-12 col-lg-6">
-                <a class="navbar-brand" href="#">
-                    <img src="https://th.bing.com/th/id/OIP.AHZtYtr2l7nLpydstx2e5wAAAA?pid=ImgDet&rs=1" alt="GBC Logo" height="100" width="100">
-                </a>
-                <h1 class="Heading" style="font-family: Times;">Welcome To Our Online Banking</h1>
-            </div>
-            <div data-testid="header" class="sr-header p-v-20 academy-header mentee-header_free-product col-6 col-lg-6">
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
-                <div class="container col-6 col-lg-12">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="home.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="Services.html">Our Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="login.html">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="register.html">Register</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
-                            </li>
-                        </ul>
+        <header class="navbar navbar-expand-lg sticky-top d-flex d-block" style>
+            <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+            <div>
+                <img src="https://th.bing.com/th/id/OIP.AHZtYtr2l7nLpydstx2e5wAAAA?pid=ImgDet&rs=1" alt="BCG logo" class="img-fluid navbar-brand p-0 me-lg-2" width="100px" height="100px" id="image" aria-label="bootstrap">
+                <div class="d-inline">
+                    <p class="text-capitalize  text-justify d-inline-flex">
+                        welcome to our online bancking
+                    </p>
+                </div>
+                <div>
+                <button class="navbar-toggler d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#Navbar" aria-control="bdNavbar" aria-lable="toggle navigation">
+                    <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#three-dots"></use>
+                    </svg>
+                </button>
+                </div>
+                <div class="offcanvas-lg offcanvas-end flex-g row-1show" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLable" data-bs-scroll="true" aria-modle="true" role="dialog">
+                    <div class="offcanvas-header px-4 pb-0 pb-0">
+                        <h5 class="offcanvas-title text-black" id="bdNavbarOffcanvasLable">GCB</h5>
+                        <button type="button" class="btn-close btn-close-black" data-bs-dismiss="close" data-bs-target="#bdNavBar">
+                        </button>
                     </div>
                 </div>
+                </div>
             </nav>
+            </header>
             </div>
-        </header>
-    
-        <main class="">
-            
-            <table id="n1">
-                <tbody>
-                    <tr>
-                        <td>
-                            <div class="feature-highlights">
-                            <h2>Feature Highlights</h2>
-                            <div class="feature">
-                                <h3>Mobile Banking</h3>
-                                <p>
-                                    Access your accounts on the go, check balances, and make transactions from your mobile device across all networks.
-                                </p>
-                            </div>
-            
-                            <div class="feature">
-                                <h3>Secure Transactions</h3>
-                                <p>
-                                    Our system ensures the security of your online transactions with advanced encryption technology.
-                                </p>
-                            </div>
-            
-                            <div class="feature">
-                            <h3>24/7 Access</h3>
-                            <p>
-                                With the online banking services, you have 24/7 access to your banking needs.
-                            </p>
-                        </div>
-                        <div class="feature"> <!-- Replaced one of the "Secure Transactions" features with a different one -->
-                            <h3>Account Management</h3>
-                            <p>All transactions are well encrypted and secured.<br>Manage your accounts and more.</p>
-                            </div>
-                        </section>
-                            </div>
-                    </td>
-                    
-                    <td>
-                        <div class="img-container">
-                            <section class="hero">
-                                <img src="https://starrfm.com.gh/wp-content/uploads/2019/11/GCB.jpeg" style="background-color: #FFFFFF; background-image: linear-gradient(90deg, #FFFFFF 0%, #E9BB3D 98%);" alt="GBC Akyme tafo">
-                                <p>Your bank for life now your trusted partner in online banking.</p>
-                                <a href="register.html" class="cta-button" >Get Started</a>
-                            </section>
-                        </div>
-                </td>
-                    </div>
-                    </tr>
-                    </tbody>
-            </table>
-            
-        </main>
-        <br>
-        <br>
-        <footer class="site-footer">
-           <table id="n2"> 
-            <tr>
-                <td>
-                    <h2>Contact</h2>
-                    <section class="contact-info">
-                        <address>
-                            <p>123 Main Street<br>Ghana</p>
-                            <p>Email: 
-                                <a href="mailto:info@gmail.com">info@gmail.com</a> <!-- Fixed the email address -->
-                            </p>
-                            <p>Phone: 
-                                <a href="tel:+23359255810">+233 59255810</a> <!-- Fixed the phone number format -->
-                            </p>
-                        </address>
-                    </section>
-                </td>
-                <td>
-    
-                    <h3>Legal</h3>
-                    <ul class="legal-links">
-                    <li><a href="terms.html">Terms of Service</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    </ul>
-                </td>
-    
-                <td>
-                    <h3>Follow Us</h3>
-                    <ul class="social-links">
-                        <li><a href="https://www.facebook.com/gbc">Facebook</a></li>
-                        <li><a href="https://twitter.com/gbc">Twitter</a></li>
-                    </ul>
-                </td>
-            
-        </table>
-    
-            <p class="copyright">&#169; 2023 GBC. All rights reserved</p>
-        </footer>
-    </div>
 </body>
 </html>
